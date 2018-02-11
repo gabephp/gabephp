@@ -1,7 +1,7 @@
-# GabePHP
+# GabePHP  
 An MVC framework written in PHP 7.2.
 
-###Introduction
+### Introduction  
 I started this framework as a learning project to find out how MVC frameworks are built from the ground up, 
 as well as an attempt to replicate a few of the features I liked in other frameworks and implement them into mine.  
 I used to be very fond of using [CodeIgniter](https://codeigniter.com/) at first, but after a while I felt like
