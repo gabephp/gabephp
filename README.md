@@ -14,7 +14,7 @@ On top of the built in improvements that PHP 7.2 gives us, using [Twig](https://
 
 Another reason for GabePHP's light footprint is the ClassFactory I implemented. 
 The class factory is responsible for making sure only one instance of each class exists per request 
-(exceptions being the entities used by doctrine for example). 
+(exceptions being the entities used by doctrine, for example). 
 Another one of it's responsibilities is injecting said class instances into function, 
 using reflection to find out what the hinted parameter types of the function in question are
 (another reason I decided to build this framework on top of PHP 7.2).
