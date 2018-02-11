@@ -1,0 +1,7 @@
+template-path: "../application/views"
+environment:
+  charset: "utf-8"
+  cache: "../temporary/cache/twig"
+  auto_reload: true
+  strict_variables: true
+  optimization: -1

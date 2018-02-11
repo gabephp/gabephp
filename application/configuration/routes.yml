@@ -1,0 +1,10 @@
+^/$:
+  controller: "application\controllers\Welcome"
+  method: "index"
+
+# The errors routes should not be removed.
+# They may be changed to be handled by another controller.
+errors:
+  404:
+    controller: "application\controllers\Errors"
+    method: "error404"

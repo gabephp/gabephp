@@ -1,0 +1,23 @@
+body {
+    font-family: Candara, 'sans-serif';
+    margin: 30px;
+    color: #333333;
+}
+.panel {
+    width: 100%;
+    border: 2px solid #dddddd;
+}
+.panel .panel-header {
+    padding: 20px;
+    border-bottom: 2px solid #dddddd;
+}
+.panel .panel-content {
+    padding: 20px;
+}
+.panel .panel-content h1 {
+    margin: 0;
+}
+.panel .panel-content code {
+    padding: 10px;
+    background-color: #dddddd;
+}

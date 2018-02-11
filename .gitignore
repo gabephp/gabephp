@@ -1,0 +1,4 @@
+vendor/*
+.idea/*
+temporary/cache/twig/*
+temporary/logs/*

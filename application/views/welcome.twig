@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>GabePHP | {{ title }}</title>
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link href="favicon.png" rel="icon" type="image/png" />
+    </head>
+    <body>
+        <div class="logo">
+
+        </div>
+        <div class="panel">
+            <div class="panel-header">
+                <img alt="GabePHP" src="/assets/images/gabephp-logo.png" width="500px">
+            </div>
+            <div class="panel-content">
+                <h1>{{ title }}</h1>
+                <p>Your GabePHP application is running properly.</p>
+                <p>This page has been rendered from the following template file:</p>
+                <code>application/views/welcome.twig</code>
+                <p>The corresponding controller for this page can be found at:</p>
+                <code>application/controllers/Welcome.php</code>
+                <p>If you are new to GabePHP, please consider reading the <a href="http://www.gabephp.com/user-guide/">User Guide</a>.</p>
+            </div>
+        </div>
+        <p>This page was rendered in <strong>{{ elapsedTime }}</strong> seconds. <br/>
+            This website is running on GabePHP version <strong>{{ version }}</strong>.</p>
+    </body>
+</html>
