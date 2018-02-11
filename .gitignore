@@ -1,4 +1,6 @@
 vendor/*
 .idea/*
 temporary/cache/twig/*
+!temporary/cache/twig/.gitkeep
 temporary/logs/*
+!temporary/logs/.gitkeep
