@@ -17,4 +17,4 @@ The class factory is responsible for making sure only one instance of each class
 (exceptions being the entities used by doctrine, for example). 
 Another one of it's responsibilities is injecting said class instances into function, 
 using reflection to find out what the hinted parameter types of the function in question are
-(another reason I decided to build this framework on top of PHP 7.2).
+(another reason I decided to build this framework using PHP 7.2).
