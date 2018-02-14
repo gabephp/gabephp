@@ -38,34 +38,7 @@
 		 */
 		protected function render(string $fileName, array $context) {
 			$template = $this->twig->load($fileName);
-			return $template->render($this->extendContext($context));
-		}
-
-		/**
-		 * @param array $context
-		 *
-		 * @return array
-		 */
-		private function extendContext(array $context) {
-			global $gabephp;
-			return array_merge($context, array(
-				'version'=> VERSION,
-				'elapsedTime'=>round(microtime(1) - $gabephp->getStartTime(), 4),
-				'currentDate'=>array(
-					'A'=>date('A'),
-					'd'=>date('d'),
-					'e'=>date('e'),
-					'F'=>date('F'),
-					'h'=>date('h'),
-					'H'=>date('H'),
-					'i'=>date('i'),
-					'l'=>date('l'),
-					'm'=>date('m'),
-					's'=>date('s'),
-					'W'=>date('W'),
-					'Y'=>date('Y')
-				)
-			));
+			return $template->render($context);
 		}
 
 	}
